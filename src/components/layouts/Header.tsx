@@ -1,5 +1,6 @@
 import { Anchor, Box, Text } from '@mantine/core';
 import type { FC } from 'react';
+// import React from 'react';
 
 export const AppHeader: FC = () => {
   return (
@@ -9,7 +10,7 @@ export const AppHeader: FC = () => {
       }}
     >
       <Box>アイコン</Box>
-      <Text size="xl">ここはヘッダーです</Text>
+      <Text size="xs">ここはヘッダーです</Text>
       <Text size="xl">ここにサイドバーも作ろう</Text>
       <Anchor href="/contact">
         <Text size="xl">コンタクトページに遷移する</Text>

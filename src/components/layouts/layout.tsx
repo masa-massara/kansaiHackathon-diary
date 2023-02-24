@@ -1,6 +1,8 @@
 import { AppShell, Header, Navbar } from '@mantine/core';
 import type { FC } from 'react';
 
+import { AppHeader } from './Header';
+
 type Props = {
   children: React.ReactNode;
 };
@@ -17,7 +19,7 @@ export const AppLayout: FC<Props> = ({ children }) => {
         }
         header={
           <Header height={60} p="xs">
-            {/* Header content */}
+            {<AppHeader />}
           </Header>
         }
         styles={(theme) => ({
