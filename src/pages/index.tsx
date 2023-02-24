@@ -15,5 +15,5 @@ const Index = () => {
     </AppLayout>
   );
 };
-
+// あいうえお
 export default Index;
